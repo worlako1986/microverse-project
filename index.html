@@ -9,7 +9,36 @@
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1 id="title">Our Survey Form</h1>
+  <p id="description">Thank you for taking your time to fill our survey form.</p>
+  <form action="" id="survey-form">
 
+        <div class="form-group"><label id="name-label">Name</label> <input type="text" id="name" placeholder="Enter Name" value="" required>Name</div>
+        <div class="form-group"><label id="email-label">Email</label> <input type="email" id="email" required placeholder="Enter Email" value="">Email</div>
+        <div class="form-group"><label id="number-label">Age</label> <input type="number" id="number" min="10" max="15" placeholder="Enter number" value="" required>Age</div>
+    
+    <div class="form-group">
+    <select id="dropdown">
+      <option>Option 1</option>
+      <option>Option 2</option>
+    </select>
+    </div>
+    <div class="form-group">
+      What do you think of our products
+     <label>Great <input type="radio" name="group1" value="opinion1"></label>
+      <label>Average<input type="radio" name="group1" value="opinion2"></label>
+      </div>
+  
+    <div class="form-group">
+      <label>Yes<input type="checkbox" name="group2" value="1"></label>
+      <label>No<input type="checkbox" name="group2" value="2"></label>
+    </div>
+    <div class="form-group">
+     <textarea col="3" rows="2"></textarea>
+  </div>
+  <div class="form-group">
+    <button id="submit"></button></div>
+  </for>
   <p>Hello World, we are software developers!
   </p>
   <script src="js/index.js"></script>
